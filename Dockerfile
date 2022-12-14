@@ -18,4 +18,3 @@ COPY . .
 RUN cd /deploy/functions && npm i --production && cd /deploy
 
 #  Run deploy script
-CMD ./deploy.sh ; sleep 2m
